@@ -15,8 +15,8 @@ import com.sesame.artspaceapp.ui.theme.ArtSpaceAppTheme
 data class Artwork(val imageRes: Int, val title: String, val artist: String, val year: String)
 
 private val artworks = listOf(
-    Artwork(R.drawable.art1, "Composition V", "Artist A", "2021"),
-    Artwork(R.drawable.art2, "Abstract Forms", "Artist B", "2020"),
+    Artwork(R.drawable.art1, "Composition", "Artist A", "2021"),
+    Artwork(R.drawable.art2, "Monalisa", "Artist B", "2020"),
     Artwork(R.drawable.art3, "Color Study", "Artist C", "2019")
 )
 
